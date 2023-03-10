@@ -14,9 +14,9 @@ async function main() {
 
  // const factoryAttackerV3 = await ethers.getContractFactory("attackerV3", deployer);
  // this.attacker = await factoryAttackerV3.deploy();
- //   const tx = await this.attacker.attack(contract.address);
-//   await tx.wait();
-//   console.log("Tx success ✨")
+ // const tx = await this.attacker.attack(contract.address);
+ // await tx.wait();
+// console.log("Tx success ✨")
 
   let ABI = ["function pwn()"];
   let interface = new ethers.utils.Interface(ABI);
